@@ -1,7 +1,7 @@
 Configuração da conta local do GIT:
-git config --global user.name felipe-botura
+git config --global user.name giornoc
 
-git config --global user.email felipebotura7@gmail.com
+git config --global user.email giovanarusbe@gmail.com
 
 Criar um projeto Aspnet MVC
 

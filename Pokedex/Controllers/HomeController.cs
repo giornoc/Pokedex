@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using System.Text.Json;
 using Microsoft.AspNetCore.Mvc;
 using Pokedex.Models;
 
@@ -15,10 +16,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        Pokemon pikachu = new Pokemon();
-        pikachu.Numero = 25;
-        pikachu.Nome = "Pikachu";
-        return View(pikachu);
+        return View();
     }
 
     public IActionResult Privacy()
